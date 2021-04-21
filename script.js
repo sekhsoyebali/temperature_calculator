@@ -50,38 +50,38 @@ const tempCalc = () => {
   } else if (selectedValue_1 == "cel_1" && selectedValue_2 == "fah_2") {
     result = celToFah(tempNumber);
     let resultContainer = document.getElementById("calcResult");
-    resultContainer.innerHTML = `= <span class="break-words break-all">${result}</span><span class="break-normal">°Fahrenheit</span>`;
+    resultContainer.innerHTML = `<span class="break-words break-all">= ${result}</span><span class="break-normal">°Fahrenheit</span>`;
   } else if (selectedValue_1 == "cel_1" && selectedValue_2 == "kel_2") {
     result = celToKel(tempNumber);
     let resultContainer = document.getElementById("calcResult");
-    resultContainer.innerHTML = `= <span class="break-words break-all">${result}</span><span class="break-normal">°Kelvin</span>`;
+    resultContainer.innerHTML = `<span class="break-words break-all">= ${result}</span><span class="break-normal">°Kelvin</span>`;
   } else if (selectedValue_1 == "fah_1" && selectedValue_2 == "cel_2") {
     result = fahToCel(tempNumber);
     let resultContainer = document.getElementById("calcResult");
-    resultContainer.innerHTML = `= <span class="break-words break-all">${result}</span><span class="break-normal">°Celsius</span>`;
+    resultContainer.innerHTML = `<span class="break-words break-all">= ${result}</span><span class="break-normal">°Celsius</span>`;
   } else if (selectedValue_1 == "fah_1" && selectedValue_2 == "kel_2") {
     result = fahToKel(tempNumber);
     let resultContainer = document.getElementById("calcResult");
-    resultContainer.innerHTML = `= <span class="break-words break-all">${result}</span><span class="break-normal">°Kelvin</span>`;
+    resultContainer.innerHTML = `<span class="break-words break-all">= ${result}</span><span class="break-normal">°Kelvin</span>`;
   } else if (selectedValue_1 == "kel_1" && selectedValue_2 == "cel_2") {
     result = kelToCel(tempNumber);
     let resultContainer = document.getElementById("calcResult");
-    resultContainer.innerHTML = `= <span class="break-words break-all">${result}</span><span class="break-normal">°Celsius</span>`;
+    resultContainer.innerHTML = `<span class="break-words break-all">= ${result}</span><span class="break-normal">°Celsius</span>`;
   } else if (selectedValue_1 == "kel_1" && selectedValue_2 == "fah_2") {
     result = kelToFah(tempNumber);
     let resultContainer = document.getElementById("calcResult");
-    resultContainer.innerHTML = `= <span class="break-words break-all">${result}</span><span class="break-normal">°Fahrenheit</span>`;
+    resultContainer.innerHTML = `<span class="break-words break-all">= ${result}</span><span class="break-normal">°Fahrenheit</span>`;
   } else if (selectedValue_1 == "cel_1" && selectedValue_2 == "cel_2") {
     result = celToCel(tempNumber);
     let resultContainer = document.getElementById("calcResult");
-    resultContainer.innerHTML = `= <span class="break-words break-all">${result}</span><span class="break-normal">°Celsius</span>`;
+    resultContainer.innerHTML = `<span class="break-words break-all">= ${result}</span><span class="break-normal">°Celsius</span>`;
   } else if (selectedValue_1 == "fah_1" && selectedValue_2 == "fah_2") {
     result = fahToFah(tempNumber);
     let resultContainer = document.getElementById("calcResult");
-    resultContainer.innerHTML = `= <span class="break-words break-all">${result}</span><span class="break-normal">°Fahrenheit</span>`;
+    resultContainer.innerHTML = `<span class="break-words break-all">= ${result}</span><span class="break-normal">°Fahrenheit</span>`;
   } else {
     result = kelToKel(tempNumber);
     let resultContainer = document.getElementById("calcResult");
-    resultContainer.innerHTML = `= <span class="break-words break-all">${result}</span><span class="break-normal">°Kelvin</span>`;
+    resultContainer.innerHTML = `<span class="break-words break-all">= ${result}</span><span class="break-normal">°Kelvin</span>`;
   }
 };
