@@ -12,7 +12,7 @@ const tempCalc = () => {
     return Fahrenheit;
   };
   const celToKel = (cel) => {
-    let Kelvin = cel + 273.15;
+    let Kelvin = (((cel - 0) * 1) / 1 + 273.15).toFixed(2);
     return Kelvin;
   };
   const fahToCel = (fah) => {
